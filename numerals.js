@@ -10,9 +10,9 @@ const numeralsLookUp = {
   1: "I",
 };
 
-let numeral = "";
 
 function numerals(number) {
+let numeral = "";
   Object.entries(numeralsLookUp)
     .reverse()
     .forEach(([key, value]) => {
